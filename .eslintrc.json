@@ -1,0 +1,13 @@
+{
+  "extends": ["@remix-run/eslint-config", "plugin:prettier/recommended"],
+  "plugins": ["@typescript-eslint"],
+  "ignorePatterns": ["public/**", "app/objects/dist/**"],
+  "overrides": [
+    {
+      "files": ["server.js"],
+      "env": {
+        "node": true
+      }
+    }
+  ]
+}

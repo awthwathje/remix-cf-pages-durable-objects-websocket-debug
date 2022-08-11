@@ -1,0 +1,13 @@
+compatibility_date = "2022-07-14"
+name = "list"
+main = "./dist/index.mjs"
+
+[build]
+command = "npm install && npm run build"
+
+[durable_objects]
+bindings = [{ name = "LIST", class_name = "List" }]
+
+[[migrations]]
+tag = "v1"
+new_classes = ["List"]

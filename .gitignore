@@ -1,0 +1,13 @@
+node_modules
+
+/.vscode
+
+/.cache
+
+/public/build
+/public/_assets
+
+/app/objects/dist
+
+/functions/\[\[path\]\].js
+/functions/\[\[path\]\].js.map
