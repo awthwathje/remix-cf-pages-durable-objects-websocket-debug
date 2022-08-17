@@ -4,9 +4,9 @@
 
 `npm run dev:remix` - starts Remix server
 
-`npm run dev:objects` - starts Workers (w/ DO) server
-
 `npm run dev:wrangler` - starts Wrangler Pages server
+
+`npm run dev:objects` - starts Workers (w/ DO) server
 
 _OR_
 
